@@ -3,17 +3,15 @@ package com.matchmaking.dto.mapper;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.modelmapper.ModelMapper;
-
 import com.matchmaking.dto.CandidateResponseDto;
 import com.matchmaking.entity.vadhuvarMaster;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class CandidateMapper {
 	
 
 	public static CandidateResponseDto toCandidateResponseDto(vadhuvarMaster vEntity) {
 		return CandidateResponseDto.builder()
+				.id(vEntity.getId())
 				.firstName(vEntity.getFirstName())
 				.lastName(vEntity.getLastName())
 				.birthDistrict(vEntity.getBirthDistrict())

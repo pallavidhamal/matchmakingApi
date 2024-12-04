@@ -23,7 +23,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 public class CandidateResponseDto {
 	
-	
+	private String id;
 	private String firstName ;
 	private String middleName ;
 	private String lastName ;
