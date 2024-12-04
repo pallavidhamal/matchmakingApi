@@ -1,19 +1,27 @@
-package com.matchmaking.entity;
+package com.matchmaking.dto;
 
 import java.util.Date;
 
-import com.matchmaking.entity.id.BaseEntity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.Accessors;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "vadhuvarMaster")
-public class vadhuvarMaster extends BaseEntity {
+@Accessors(chain = true)
+@ToString
+@JsonInclude(value = JsonInclude.Include.NON_NULL)
+@JsonIgnoreProperties(ignoreUnknown = true)
+@Builder
+@AllArgsConstructor
+public class CandidateResponseDto {
 	
 	
 	private String firstName ;
@@ -78,8 +86,8 @@ public class vadhuvarMaster extends BaseEntity {
 	private String IntercastMarriage;
 	
 	private String ifyes ;
+	private String gender ;
 	
-	private String gender;
 	
 	private String prefCity;
 	private String prefMangal;
@@ -89,7 +97,6 @@ public class vadhuvarMaster extends BaseEntity {
 	private String prefEdu;
 	private String prefOcuu;
 	private String prefDivorce;
-	
 
 	/*
 	Preferred Cities 
@@ -103,7 +110,5 @@ public class vadhuvarMaster extends BaseEntity {
 
 	private String profilepicture_path1;
 	private String profilepicture_path2;
-	
-	
 
 }
