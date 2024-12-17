@@ -27,63 +27,63 @@ public class CandidateResponseDto {
 	private String firstName ;
 	private String middleName ;
 	private String lastName ;
-	private Date DOB; 
+	private Date dOB; 
 	private String subCast ;
 	private String maritialStatus ;
-	private int Height ;
-	private int Weight ;
+	private float height ;
+	private int weight ;
 	private String bloodGroup ;
-	private String Complexion ;
+	private String complexion ;
 	private String pysicalDisablities ;
 	private String pysicalDisDesc ;
-	private String Diet ;
-	private String Spectacles ;
-	private String Lens ;
-	private String Personality; 
+	private String diet ;
+	private String spectacles ;
+	private String lens ;
+	private String personality; 
 
-	private String Rashi ;
-	private String Nakshatra ;
-	private String Charan ;
-	private String Nadi ;
-	private String Gan ;
-	private String Mangal ;
+	private String rashi ;
+	private String nakshatra ;
+	private String charan ;
+	private String nadi ;
+	private String gan ;
+	private String mangal ;
 	private Date birthTime ;
 	private String birthDistrict;
-	private String Devak ;
+	private String devak ;
 
 	private String educationArea ;
-	private String Education ;
+	private String education ;
 	private String occupationType;
 	private String occupationDetails ;
 	private String workingInCity;
-	private int Income ;
+	private int income ;
 
 	private String kycDoc ;
 	private String residenceAddress ;
 	private String emailID;
-	private String mobileForSMSAlert;
+	private String contactPerson;
 	private String mobileII ;
-	private String PhoneI ;
-	private String PhoneII ;
+	private String phoneI ;
+	private String phoneII ;
 
 
-	private String Father; 
-	private String Mother ;
-	private int Brothers ;
-	private int MarriedBrothers ;
-	private int Sisters ;
-	private int MarriedSisters ;
-	private String ParentsFullname ;
-	private String ParentsOccupation ;
-	private String ParentsResidentCity ;
-	private String SurnamesofRelatives ;
+	private String father; 
+	private String mother ;
+	private String brothers ;
+	private int marriedBrothers ;
+	private String sisters ;
+	private int marriedSisters ;
+	private String parentsFullname ;
+	private String parentsOccupation ;
+	private String parentsResidentCity ;
+	private String surnamesofRelatives ;
 	 
 
-	private String FamilyWealth;
-	private String MamasSurPlace ;
-	private String NativeDistrict;
-	private String NativeTaluka ;
-	private String IntercastMarriage;
+	private String familyWealth;
+	private String mamasSurPlace ;
+	private String nativeDistrict;
+	private String nativeTaluka ;
+	private String intercastMarriage;
 	
 	private String ifyes ;
 	private String gender ;
@@ -97,6 +97,10 @@ public class CandidateResponseDto {
 	private String prefEdu;
 	private String prefOcuu;
 	private String prefDivorce;
+	
+	private String perOther;
+	private String famOther;
+	private String expOther;
 
 	/*
 	Preferred Cities 

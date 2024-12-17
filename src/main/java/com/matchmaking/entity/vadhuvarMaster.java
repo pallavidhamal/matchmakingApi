@@ -22,7 +22,7 @@ public class vadhuvarMaster extends BaseEntity {
 	private Date DOB; 
 	private String subCast ;
 	private String maritialStatus ;
-	private int Height ;
+	private float Height ;
 	private int Weight ;
 	private String bloodGroup ;
 	private String Complexion ;
@@ -32,6 +32,9 @@ public class vadhuvarMaster extends BaseEntity {
 	private String Spectacles ;
 	private String Lens ;
 	private String Personality; 
+	private String perOther;
+	private String famOther;
+	private String expOther;
 
 	private String Rashi ;
 	private String Nakshatra ;
@@ -44,7 +47,7 @@ public class vadhuvarMaster extends BaseEntity {
 	private String Devak ;
 
 	private String educationArea ;
-	private String Education ;
+	private String education ;
 	private String occupationType;
 	private String occupationDetails ;
 	private String workingInCity;
@@ -53,7 +56,7 @@ public class vadhuvarMaster extends BaseEntity {
 	private String kycDoc ;
 	private String residenceAddress ;
 	private String emailID;
-	private String mobileForSMSAlert;
+	private String contactPerson;
 	private String mobileII ;
 	private String PhoneI ;
 	private String PhoneII ;
@@ -61,9 +64,9 @@ public class vadhuvarMaster extends BaseEntity {
 
 	private String Father; 
 	private String Mother ;
-	private int Brothers ;
+	private String Brothers ;
 	private int MarriedBrothers ;
-	private int Sisters ;
+	private String Sisters ;
 	private int MarriedSisters ;
 	private String ParentsFullname ;
 	private String ParentsOccupation ;
